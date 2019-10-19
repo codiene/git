@@ -6,3 +6,7 @@ git diff --staged
 
 git diff 
 			сравнить не проиндексирован с masterr
+
+git commit -a -m 'added new benchmarks' 
+			игнор add .
+
