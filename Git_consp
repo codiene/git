@@ -20,5 +20,10 @@ git rm <name.file>
 git rm -f <name.file> 
 			удалить проиндексирован fail
 
-			
+git rm --cached
+			удалить проиндексирован file из add
+
+git mv <file.name> <new.fiele.name>
+
+git log -p -2
 
