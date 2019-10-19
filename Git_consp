@@ -6,6 +6,8 @@ git config --global user.mail ""
 git config --global core.edit "vim"
 
 
+$ git clone git://github.com/schacon/ticgit.github
+
 git diff --chaced 
 git diff --staged 
 			сравнить  что проиндексировал с master
@@ -56,4 +58,14 @@ git commit --amend
 	$ git add forgotten_file
 	$ git commit --amend
 
-	
+git reset HEAD <name.file_in_init>
+			вeрнет принициализированый файл
+
+git checkout <name.file>
+			бытро отменить измения в <name.file>
+
+
+git remoute
+			Чтобы просмотреть, какие удалённые серверы у вас уже настроены
+git remoute -v
+			какому URL соответствует сокращённое имя в Git
