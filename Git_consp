@@ -49,3 +49,11 @@ git log --since=2.weeks
 	`--committer`
 			Показать только те коммиты, коммитер которых соответствует указанной строке
 
+git commit --amend
+			изменить последний коммит
+
+	$ git commit -m 'initial commit'
+	$ git add forgotten_file
+	$ git commit --amend
+
+	
