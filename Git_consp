@@ -17,4 +17,8 @@ git commit -a -m 'added new benchmarks'
 			игнор add .
 
 git rm <name.file>
+git rm -f <name.file> 
+			удалить проиндексирован fail
+
+			
 
