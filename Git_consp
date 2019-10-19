@@ -16,3 +16,5 @@ git diff
 git commit -a -m 'added new benchmarks' 
 			игнор add .
 
+git rm <name.file>
+
