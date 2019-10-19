@@ -1,1 +1,8 @@
-Git -- 
+Git --
+
+git diff --chaced 
+git diff --staged 
+			сравнить  что проиндексировал с master
+
+git diff 
+			сравнить не проиндексирован с master
