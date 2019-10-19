@@ -1,5 +1,11 @@
 Git --
 
+git config -l
+git config --global user.name ""
+git config --global user.mail ""
+git config --global core.edit "vim"
+
+
 git diff --chaced 
 git diff --staged 
 			сравнить  что проиндексировал с master
